@@ -27,13 +27,14 @@ with a pop up dialog to select a .txt file to load data from.
 
 The format of the data in the file must be:
 
-status byte,data1,data2,send delay
+`status byte,data1,data2,send delay`
 
 See the example below:
 
-0x90,0x36,0x00,0
-0x90,0x36,0x64,0
-0x90,0x36,0x7F,0
+
+`0x90,0x36,0x00,0`
+`0x90,0x36,0x64,0`
+`0x90,0x36,0x7F,0`
 
 ## Known Issues:
 
